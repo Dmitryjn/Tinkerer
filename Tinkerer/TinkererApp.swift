@@ -30,6 +30,7 @@ struct TinkererApp: App {
                 }
             
         }
+            .environmentObject(locations)
       }
     }
 }

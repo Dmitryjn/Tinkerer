@@ -10,6 +10,7 @@ import SwiftUI
 
 struct WorldView: View {
     
+    @EnvironmentObject var locations : Locations
     @State var region = MKCoordinateRegion (
         center:
             CLLocationCoordinate2D(latitude: 52.507222,
