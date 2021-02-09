@@ -20,7 +20,11 @@ struct WorldView: View {
     )
     
     var body: some View {
-        Map(coordinateRegion: $region)
+        Map(coordinateRegion: $region , annotationItems: locations.places)
+        {
+            
+            
+        }
             .navigationTitle("Locations")
     }
 }
