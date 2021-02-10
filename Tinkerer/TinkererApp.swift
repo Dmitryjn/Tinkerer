@@ -25,8 +25,15 @@ struct TinkererApp: App {
                     WorldView ()
                 }
                 .tabItem {
-                    Image ("star")
+                    Image ("star.circle")
                     Text ("Locations")
+                }
+                NavigationView{
+                    TipsVew()
+                }
+                .tabItem {
+                    Image(systemName: "list.bullet")
+                    Text("Tips")
                 }
             
         }

@@ -16,6 +16,8 @@
 		FBA87CC425D23F4E004E9EF7 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = FBA87CC225D23F4E004E9EF7 /* locations.json */; };
 		FBA87CC725D25708004E9EF7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA87CC625D25708004E9EF7 /* Location.swift */; };
 		FBA87CCA25D25EB2004E9EF7 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA87CC925D25EB2004E9EF7 /* Locations.swift */; };
+		FBFAE3B025D38F8900332456 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFAE3AF25D38F8900332456 /* Tip.swift */; };
+		FBFAE3B325D395EB00332456 /* TipsVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFAE3B225D395EB00332456 /* TipsVew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		FBA87CC225D23F4E004E9EF7 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		FBA87CC625D25708004E9EF7 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		FBA87CC925D25EB2004E9EF7 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		FBFAE3AF25D38F8900332456 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		FBFAE3B225D395EB00332456 /* TipsVew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsVew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				FBA87CB125D23AC2004E9EF7 /* TinkererApp.swift */,
+				FBFAE3AF25D38F8900332456 /* Tip.swift */,
+				FBFAE3B225D395EB00332456 /* TipsVew.swift */,
 				FB44B10325D316F2006AA298 /* WorldView.swift */,
 				FBA87CB325D23AC2004E9EF7 /* ContentView.swift */,
 				FBA87CC925D25EB2004E9EF7 /* Locations.swift */,
@@ -158,7 +164,9 @@
 				FBA87CB425D23AC2004E9EF7 /* ContentView.swift in Sources */,
 				FBA87CC725D25708004E9EF7 /* Location.swift in Sources */,
 				FB44B10425D316F2006AA298 /* WorldView.swift in Sources */,
+				FBFAE3B025D38F8900332456 /* Tip.swift in Sources */,
 				FBA87CCA25D25EB2004E9EF7 /* Locations.swift in Sources */,
+				FBFAE3B325D395EB00332456 /* TipsVew.swift in Sources */,
 				FBA87CB225D23AC2004E9EF7 /* TinkererApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
